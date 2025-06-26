@@ -14,7 +14,7 @@ import { useTheme } from './hooks/useTheme';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <CustomThemeProvider>
         <ThemeWrapper />
       </CustomThemeProvider>
